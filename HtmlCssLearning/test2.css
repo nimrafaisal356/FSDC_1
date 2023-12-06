@@ -1,0 +1,36 @@
+div{
+width: 250px;
+height: 250px;
+background-color: aqua;
+position: relative;
+animation-name: abcd;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes abcd{
+ 0% {background-color: aqua; top: 0px; left: 0px;}
+ 25% {background-color: #9900ff; top: 0; left: 300px;}
+ 50% {background-color: rgb(0, 0, 0); top: 300px; left: 0;}
+ 75% {background-color: rgb(235, 18, 210); top: 300px; left: 300px;}
+ 100% {background-color: rgb(205, 12, 28); top: 0; left: 0;}
+
+
+}
+.div2 {
+   margin-top: 500px;
+    width: 250px;
+    height: 250px;
+   background-image: url(car.jpg) ;
+    position: relative;
+    animation-name: abcd2;
+    animation-duration: 15s;
+    animation-iteration-count: 2;
+}
+
+@keyframes abcd2 {
+ 0% {background-image: url(car.jpg) ; top: 0px; left: 0px;}
+ 25% {background-image: url(car2.jpg); top: 0px; left: 300px;}
+ 50% {background-image: url(car3.jpg); top: 300px; left: 0px;}
+ 75% {background-image: url(car4.jpg); top: 300px; left: 300px;}
+ 100% {background-image: url(car5.jpg); top: 0px; left: 0px;}
+}
