@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                <h1 class="h1-responsive font-weight-bold text-center">CONTACT US!</h1>
+                <p class="text-center my-0">For any queries , fill the form below.</p>
+            </div>
+            <div class="col-md-8">
+                <form class="row g-3 needs-validation" novalidate>
+
+                    <div class="col-md-6">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required />
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="" required />
+                        <d class="valid-feedback">
+                            Looks good!
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="validationCustom03" required />
+                        <div class="invalid-feedback">
+                            Please provide a Phone Number.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="validationCustomEmail" class="form-label">Email</label>
+
+                        <input type="text" class="form-control" id="validationCustom05" required />
+                        <div class="invalid-feedback">
+                            Please provide a valid email.
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="message">Your message</label>
+                        <textarea type="text" id="message" name="message" rows="2"
+                            class="form-control md-textarea"></textarea>
+                    </div>
+                    <div class="mt-4">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-4">
+                <div class="mt-2 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>San Francisco, CA 94126, USA</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 01 234 567 89</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>contact@mdbootstrap.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/popper.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
