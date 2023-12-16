@@ -1,0 +1,235 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.websiteContainer {
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.slide {
+  background: #8b959e;
+}
+
+.slide .header a {
+  color: #fff;
+}
+
+.slide .header .navbar-brand {
+  font-size: 50px;
+  color: #fff;
+  /* width: 20%; */
+}
+
+.header .nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+.header .accbutton {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+.slide .slideInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide .slideInfo .slidetext h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.slide .slideInfo .slidetext button {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+.slide .slideInfo .slideImg img {
+  width: 400px;
+}
+
+.ads {
+   padding: 40px;
+}
+
+/*
+.adsbanners {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+*/
+.adsbanners .banner img {
+  /* width: 367px;*/
+  height: 250px;
+  filter: grayscale(30%);
+}
+
+.adsbanners .banner p {
+  position: absolute;
+  margin: -4% 5%;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* .ads .banner1 img {
+ width: 300px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+/*.ads .banner2 img {
+  margin-left: 30px;
+  margin-top: 60px;
+  height: 205px;
+}
+.ads .banner3 img {
+  height: 200px;
+ /* margin-left: 30px;
+  margin-top: 60px;
+}*/
+
+.category {
+  padding-bottom: 40px;
+}
+
+.category h2 {}
+
+.category .catBox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category .catBox .catBoxItem img {
+  /* width: 150px; */
+}
+
+/* border-radius: 50%;
+}
+
+.category .catBox .catBoxItem p {
+  text-align: center;
+}*/
+
+
+.about {
+  padding: 40px 0;
+  background: #fff3e9;
+}
+
+/*
+.about .abouttext {
+  margin-left: 100px;
+}
+
+.about .abouttext .point {
+  margin: 40px 0;
+}
+
+.about .abouttext .point h3 {
+  margin: 0;
+}
+.about .abouttext .point p {
+}
+
+.about .aboutimg {
+  height: 440px;
+  width: 558px;
+}*/
+.trending {
+  /* display: flex;
+  gap: 60px;
+  justify-content: center;*/
+}
+
+.collection {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.collectiontx {
+  position: absolute;
+  margin: -20% 7%;
+  color: #fff;
+  text-align: center;
+}
+
+.collection .collectiontx h3 {
+  font-size: 30px;
+}
+
+.collection .collectiontx p {
+  font-size: 16px;
+}
+
+.collection .collectiontx button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+
+
+.latest {
+  padding: 40px;
+}
+
+.latest .ltx {}
+
+.latest .ltx h3 {
+  /* margin-top: 200px; */
+  /* margin-left: 505px; */
+  font-size: 30px;
+}
+
+.latest .ltx p {
+  /* margin-left:400px ;  */
+}
+
+.latest .ltx input {
+  color: #8b959e;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  padding: 10px;
+}
+
+.latest .ltx button {
+  /* color: #8b959e; */
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  padding: 10px;
+  background: none;
+}
+
+.footer {
+  background-color: #dee0e1;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 100px;
+}
+
+
+
+/* Generic css */
+
+.dflex {
+  display: flex;
+  gap: 10px;
+}
